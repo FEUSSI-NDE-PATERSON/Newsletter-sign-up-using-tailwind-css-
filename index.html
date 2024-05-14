@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/assets/images/favicon-32x32.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="flex h-full justify-center items-center bg-[#242742]">
+  <div class="bg-white rounded-lg flex flex-col sm:flex-row justify-between p-5 sm:w-[600px] ">
+        <div class="mt-4 pl-5">
+            <p class="text-[#242742] my-4 text-2xl font-bold" >Stay Updated! </p>
+             <p class="text-xs text-[#36384e] py-3">Join 60,000+ product managers receiving monthly updates on:</p>
+             <div class="mb-5">
+               <div class="flex my-2 items-center "> <img src="/assets/images/icon-list.svg" /><p class="text-xs ml-2">Product disovery and building what matters</p> </div>
+               <div class="flex my-2 items-center "> <img src="/assets/images/icon-list.svg" /><p class="text-xs ml-2">Measuring to ensure updates are a success</p> </div>
+               <div class="flex items-center "> <img src="/assets/images/icon-list.svg" /> <p class="text-xs ml-2">And much more!</p> </div>
+
+            </div>
+            <form class="pt-5 flex flex-col">
+                <div class="flex flex-row justify-between">
+                    <p class=" text-sm text-[#242742]">Email address</p>
+                    <p class="text-red-400 text-sm display-outputMesaage"></p>
+                </div>
+                <input type="text"  name="" placeholder="email@company.com" id="" class="border rounded-lg border-[#9294a0] px-3 py-2 mt-2" required>
+                <button class=" text-white text-sm bg-[#242742] rounded-lg p-3 mt-2"  onclick="emailVerification()">Subscribe for monthly newletter</button>
+            </form>
+        </div>
+        
+        <div>
+            <img src="/assets/images/illustration-sign-up-desktop.svg" class="ml-3 mt-3  h-[100%]" alt="image not supported" />
+
+        </div>
+     </div> 
+     
+     
+     
+     
+     
+    
+   
+     <script src="script.js"></script>
+</body>
+</html>
